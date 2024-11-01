@@ -55,21 +55,20 @@ p {
     margin: .5rem;
 }
 
-.btn, .btn1, .btn2 {
-    background: #e0e0e0;
-    border: none;
-    color: #282828;
+.btn, .btn1 {
+    text-align: center;
+    background: #282828;
+    border: 1px solid #fff;
+    color: #e0e0e0;
     padding: 1rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 4em;
+    padding-right: 4rem;
     margin: .3rem;
     border-radius: 3rem;
 }
 
-.btn1 {
-    background: blue;
-}
 
-.btn, .btn1, .btn2:hover {
-    cursor: pointer;
+.btn:hover, .btn1:hover {
+    background: #e0e0e0;
+    color: #282828;
 }
