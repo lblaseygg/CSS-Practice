@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #282828;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
+    padding-bottom: 2rem;
+    color: #e0e0e0;
+    justify-content: center;
+    font-size: 3rem;
+    text-align: center;
+}
+
+p {
+    color: #e0e0e0;
+
+}
+
+
+.card {
+    margin-top: 7rem;
+    width: 800px;
+    padding: 1rem;
+    background: #282828;
+    text-align: center;
+    padding-bottom: 5rem;
+
+}
+
+input {
+    border-radius: .5rem;
+    color: #e0e0e0;
+    background: #282828;
+    border: .1px solid #fff;
+    padding: 1rem;
+    margin: .4rem;
+    
+}
+
+::placeholder {
+    color: #8b8b8b;
+    font-size: 1rem;
+}
+
+p {
+    margin: .5rem;
+}
+
+.btn, .btn1, .btn2 {
+    background: #e0e0e0;
+    border: none;
+    color: #282828;
+    padding: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin: .3rem;
+    border-radius: 3rem;
+}
+
+.btn1 {
+    background: blue;
+}
+
+.btn, .btn1, .btn2:hover {
+    cursor: pointer;
+}
